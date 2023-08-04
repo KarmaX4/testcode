@@ -1,7 +1,5 @@
 import React from 'react'
 import NummberCard from './nameBanner'
-import CiclesSection from './circleSection'
-import SkywaveText from './skywaveText'
 import HeadText from './headText'
 
 const Section3 = () => {
@@ -9,8 +7,6 @@ const Section3 = () => {
     <>
     <NummberCard/>
     <HeadText/>
-    {/* <CiclesSection/> */}
-    {/* <SkywaveText/> */}
     </>
   )
 }
