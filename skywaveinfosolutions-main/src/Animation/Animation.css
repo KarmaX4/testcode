@@ -1,0 +1,32 @@
+.boxcircle {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -99;
+}
+
+.movecircle {
+    bottom: 0;
+    right: 0;
+    /* Adjust the blur value as needed */
+}
+
+
+@-moz-keyframes animationCircle {
+    100% {
+        -moz-transform: translate(-50%, -50%);
+    }
+}
+
+@-webkit-keyframes animationCircle {
+    100% {
+        -webkit-transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes animationCircle {
+    100% {
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
