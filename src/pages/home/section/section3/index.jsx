@@ -9,7 +9,7 @@ const Section3 = () => {
     <>
     <NummberCard/>
     <HeadText/>
-    <CiclesSection/>
+    {/* <CiclesSection/> */}
     <SkywaveText/>
     </>
   )
