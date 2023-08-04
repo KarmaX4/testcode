@@ -6,6 +6,11 @@ import SS1 from './section1'
 import SS2 from './section2'
 import MainFooter from '../footer/mainFooter'
 
+
+
+  
+ 
+  
 const ServicePage = () => {
     return (
         <>

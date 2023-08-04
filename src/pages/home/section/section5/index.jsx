@@ -1,7 +1,7 @@
 import React from 'react';
 import Taboptions from './tabs';
 import { Box, Container, Divider, Typography } from '@mui/material';
-import Testimonials from './testimonials';
+
 
 const Section5 = () => {
     return (
@@ -39,7 +39,7 @@ const Section5 = () => {
                         What They Say
                     </Typography>
                 </Box>
-                <Testimonials/>
+                
                 </Container>
         </>
     );

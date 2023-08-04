@@ -1,5 +1,5 @@
 
-import ServiceCards from '@/pages/Card';
+// import ServiceCards from '@/pages/Card';
 import Headtitle from '@/pages/titles/headtitle';
 import { Box, Container, Grid, Card, CardContent, Typography } from '@mui/material';
 import React from 'react';
@@ -51,7 +51,7 @@ const SS1 = () => {
 
     return (
       <Container maxWidth={false} sx={{mt:"-16%"}}>
-        <ServiceCards cardsData={cardsData} />
+        {/* <ServiceCards cardsData={cardsData} /> */}
       </Container>
   )
 }

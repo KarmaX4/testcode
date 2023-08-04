@@ -3,7 +3,7 @@ import Headtitle from '@/pages/titles/headtitle';
 import { Box, Container, Grid, Button, Card, CardContent, CardActions, Typography } from '@mui/material';
 import React from 'react';
 import OverlayBanner from '../section3/overlayBanner';
-import ServiceCards from '@/pages/Card'
+// import ServiceCards from '@/pages/Card'
 
 const AS2 = () => {
 
@@ -74,7 +74,7 @@ const AS2 = () => {
             >
                 <OverlayBanner />
             </Box>
-            <ServiceCards cardsData={cardsData} />
+            {/* <ServiceCards cardsData={cardsData} /> */}
             <NummberCard />
         </Container>
     )
