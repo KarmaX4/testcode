@@ -1,4 +1,4 @@
-import WebsitePage from '@/pages/servicepage/websitePage'
+import WebsitePage from '@/pages/servicepage/WebsitePage'
 import React from 'react'
 
 const websites
