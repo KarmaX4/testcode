@@ -29,6 +29,7 @@ const ServicePage = () => {
                     <NummberCard />
                 </Box>
             </Box>
+            <></>
             <MainFooter />
         </>
     )
