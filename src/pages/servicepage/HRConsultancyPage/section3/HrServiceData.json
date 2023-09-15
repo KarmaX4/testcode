@@ -1,0 +1,47 @@
+{
+    "HrService": [
+        [{
+            "title": "Talent Acquisition and Recruitment",
+            "list": [
+                "Job analysis and role definition",
+                "Targeted tech talent sourcing",
+                "Technical assessments and evaluations"
+            ],
+            "color": "#1FCFF1"
+        }, {
+            "title": "Skill Development and Training",
+            "list": [
+                "Customized IT training programs",
+                "Soft skills and leadership development",
+                "Continuous learning initiatives"
+            ],
+            "color": "#FFD512"
+        }],
+        [{
+            "title": "Retention Strategies",
+            "list": [
+                "Competitive compensation analysis",
+                "Employee recognition programs",
+                "Career growth pathways"
+            ],
+            "color": "#9945FF"
+        }, {
+            "title": "HR Compliance in the IT Sector",
+            "list": [
+                "IT-specific labor laws and regulations",
+                "Data privacy and cybersecurity compliance",
+                "Contract and policy reviews"
+            ],
+            "color": "#19FB9B"
+        }, {
+            "title": "Change Management for IT Transitions",
+            "list": [
+                "Smooth mergers and acquisitions transitions",
+                "Support during technology upgrades",
+                "Restructuring and reorganization guidance"
+            ],
+            "color": "#EA6B35"
+        }]
+
+    ]
+}

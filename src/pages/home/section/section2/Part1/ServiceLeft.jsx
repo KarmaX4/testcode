@@ -9,7 +9,7 @@ const ServiceLeft = () => {
     const servicesBobblesData = [
         {
             gridSize: 12,
-            icon: "/icons/services/Group5.svg",
+            icon: "/images/icons/services/Group5.svg",
             text: "Mobile Apps",
             sx: {
                 right: "30%",
@@ -17,7 +17,7 @@ const ServiceLeft = () => {
         },
         {
             gridSize: 6,
-            icon: "/icons/services/Group4.svg",
+            icon: "/images/icons/services/Group4.svg",
             text: "UI/UX Design",
             sx: {
                 left: "0%",
@@ -26,7 +26,7 @@ const ServiceLeft = () => {
         },
         {
             gridSize: 6,
-            icon: "/icons/services/Group3.svg",
+            icon: "/images/icons/services/Group3.svg",
             text: "Websites",
             sx: {
                 right: "15%",
@@ -35,7 +35,7 @@ const ServiceLeft = () => {
         },
         {
             gridSize: 6,
-            icon: "/icons/services/Group2.svg",
+            icon: "/images/icons/services/Group2.svg",
             text: "Blockchain",
             sx: {
                 left: "15%",
@@ -44,7 +44,7 @@ const ServiceLeft = () => {
         },
         {
             gridSize: 6,
-            icon: "/icons/services/Group1.svg",
+            icon: "/images/icons/services/Group1.svg",
             text: "SEO Services",
             sx: {
                 right: "0%",
@@ -53,7 +53,7 @@ const ServiceLeft = () => {
         },
         {
             gridSize: 12,
-            icon: "/icons/services/Group6.svg",
+            icon: "/images/icons/services/Group6.svg",
             text: "Odoo ERP",
             sx: {
                 left: "30%",
@@ -72,7 +72,8 @@ const ServiceLeft = () => {
                 height: '25rem',
                 width: {
                     xs: '20rem',
-                    md: '50%'
+                    // sm: '20rem',
+                    md: '22rem'
                 }
             }}
         >

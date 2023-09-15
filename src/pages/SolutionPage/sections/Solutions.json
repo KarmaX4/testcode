@@ -1,0 +1,52 @@
+[
+    {
+        "title": "GPS Tracking",
+        "desc": "We are global partners in providing robust and white labeled GPS tracking software. Our objective is to ease-up the lives of human by leveraging GPS technology and transforming it into adaptive and low-cost business applications.",
+        "link" : "/solutions/gps-tracking-solutions"
+    },
+    {
+        "title": "Internet of Things",
+        "desc": "Internet of Things has already taken place of lots of manual tasks in day-to-day life. With the main aim to facilitate lifestyle of people and providing power to accomplish things with finger taps and voice technology.",
+        "link" : "/solutions/iot-solutions"
+    },
+    {
+        "title": "Beacon",
+        "desc": "Beacon being low powered bluetooth chip or device, has lots of usability in real life. Many possibilities in fields of marketing, healthcare industry, analytics, manufacturing industry have been implemented through beacon app development.",
+        "link" : "/solutions/beacon-solutions"
+    },
+    {
+        "title": "On Demand Marketplace",
+        "desc": "Customers are always looking for easy delivery of the products, services or whatever item you are selling as a business. For that on demand application can serve in best ways to promote and help you get repetitive customers for your business.",
+        "link" : "/solutions/on-demand-marketplace"
+    },
+    {
+        "title": "Catalogue",
+        "desc": "People have no space to store your business’ marketing material for their reference even if they need. We have unique catalogue solutions for any businesses which can be opted to have your business stand out of the box.",
+        "link" : "/solutions/catalogue-solutions"
+    },
+    {
+        "title": "Automotive and Logistics",
+        "desc": "We have helped lots of Automotive industry with our advance solutions. We were able to help industries achieve more revenue after applying IoT and cloud based automobile solutions.",
+        "link" : "/solutions/automotive-and-logistics-solutions"
+    },
+    {
+        "title": "Lifestyle and Hospitality",
+        "desc": "IT solutions for lifestyle and hospitality can make huge difference in this industry. Technologies like IoT, chatbot, iBeacons are blooming in the industry and have proven success ratio.",
+        "link" : "/solutions/lifestyle-and-hospitality-solutions"
+    },
+    {
+        "title": "Voice Enabled",
+        "desc": "Searches over internet are changing into voice searches. Meanwhile, voice enabled technology has also taken a huge curve in IT industry.",
+        "link" : "/solutions/voice-enabled-solutions"
+    },
+    {
+        "title": "Integrated Chatbot",
+        "desc": "Chatbots have power to accomplish them all and giving satisfied user experience over various platforms like mobile or web.",
+        "link" : "/solutions/integrated-chatbot-solutions"
+    },
+    {
+        "title": "Healthcare",
+        "desc": "Healthcare is one of the top growing industry and people have seriously started taking care of themselves.",
+        "link" : "/solutions/healthcare-solutions"
+    }
+]

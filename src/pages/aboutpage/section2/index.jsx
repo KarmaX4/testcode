@@ -1,60 +1,30 @@
-import NummberCard from '@/pages/home/section/section3/nameBanner';
-import Headtitle from '@/pages/titles/headtitle';
 import { Box, Container, Grid, Button, Card, CardContent, CardActions, Typography } from '@mui/material';
 import React from 'react';
 import OverlayBanner from '../section3/overlayBanner';
-// import ServiceCards from '@/pages/Card'
+import ServiceCards from '@/pages/Card'
+
+const leftOverlayBanner = 'We are full of interesting creative ideas!';
+const descOverlayBanner = 'Our highly motivated team of experts come with unique and creative ideas for business upliftment. We completely go through our client’s demand and that is why we are liked by most of the industries as a tech partner.';
 
 const AS2 = () => {
 
     const Background = {
         width: '100%',
-        height: '1966px',
+        height: '100%',
         borderRadius: '50px 50px 0px 0px',
         backgroundColor: 'black',
-        marginTop: '20rem',
+        marginTop: {
+            xs: '17rem',
+            sm: '16rem',
+            md: '7rem'
+        },
         position: 'relative',
-        padding: '0 !important',
-    };
+        paddingBottom: {
+            xs: '0rem',
+            md: '0rem'
+        },
 
-    const cardsData = [
-        {
-            title: 'Website',
-            description: 'Custom Web Application Development Services for customers',
-            imageUrl: '/images/ourServices/website.png',
-            iconUrl: '/icons/services/Group3.svg'
-        },
-        {
-            title: 'UI/UX Design',
-            description: 'We offer design services to build engaging user experiences',
-            imageUrl: '/images/ourServices/UIUX.png',
-            iconUrl: '/icons/services/Group4.svg'
-        },
-        {
-            title: 'SEO Service',
-            description: 'We work to bring your business digitally up by using the latest marketing tactics on the internet.',
-            imageUrl: '/images/ourServices/Seo.png',
-            iconUrl: '/icons/services/Group1.svg'
-        },
-        {
-            title: 'Odoo ERP',
-            description: 'We build custom and scalable software in Odoo as per the requirement.',
-            imageUrl: '/images/ourServices/odoo.png',
-            iconUrl: '/icons/services/Group6.svg'
-        },
-        {
-            title: 'BlockChain',
-            description: 'We offer reliable Blockchain development & consulting services',
-            imageUrl: '/images/ourServices/BlockChain.png',
-            iconUrl: '/icons/services/Group2.svg'
-        },
-        {
-            title: 'Mobile App',
-            description: 'Best Mobile Application Development Services for Enterprise',
-            imageUrl: '/images/ourServices/Mobile.png',
-            iconUrl: '/icons/services/Group5.svg  '
-        },
-    ];
+    };
 
     return (
         <Container maxWidth={false} sx={Background}>
@@ -62,20 +32,24 @@ const AS2 = () => {
 
                 position={'absolute'}
                 zIndex={'1'}
-                width={{
-                    lg: '100%',
-                    xl: '88.2rem'
-                }}
-                top={0}
-                left='calc(100vw*50/100)'
+                width={'90vw'}
+                top={{ xs: '-6rem', sm: 0 }}
+                left='50%'
                 sx={{
                     transform: 'translate(-50%, -50%)'
                 }}
             >
-                <OverlayBanner />
+                {/* <OverlayBanner  /> */}
+                <OverlayBanner leftValue={leftOverlayBanner} rightValue={descOverlayBanner} />
             </Box>
-            {/* <ServiceCards cardsData={cardsData} /> */}
-            <NummberCard />
+            <Box
+                pt={{
+                    xs: '10rem',
+                    md: '15rem'
+                }}
+            >
+                <ServiceCards />
+            </Box>
         </Container>
     )
 }

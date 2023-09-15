@@ -6,15 +6,17 @@ const HeadText = () => {
     <Container
       maxWidth={false}
       sx={{
+        // backgroundColor: 'darkgreen',
         m: 'auto',
         width: {
-          xs: '100%',
-          md: '88.2rem !important'
+          xs: '90vw',
+          md: '84.2rem !important'
         },
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         height: '102px',
+        marginBottom: '5rem'
       }}
     >
       <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>

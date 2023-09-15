@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Website",
+        "description": "Custom Web Application Development Services for customers",
+        "iconUrl": "/images/icons/services/Group3.svg",
+        "link": "/service/websites"
+    },
+    {
+        "title": "UI/UX Design",
+        "description": "We offer design services to build engaging user experiences",
+        "iconUrl": "/images/icons/services/Group4.svg",
+        "link": "/service/ui-ux-design-analysis"
+    },
+    {
+        "title": "Odoo ERP",
+        "description": "We build custom and scalable software in Odoo as per the requirement.",
+        "iconUrl": "/images/icons/services/Group6.svg",
+        "link": "/service/odoo-erp"
+    },
+    {
+        "title": "BlockChain",
+        "description": "We offer reliable Blockchain development & consulting services",
+        "iconUrl": "/images/icons/services/Group2.svg",
+        "link": "/service/blockchain"
+    },
+    {
+        "title": "Mobile App",
+        "description": "Best Mobile Application Development Services for Enterprise",
+        "iconUrl": "/images/icons/services/Group5.svg",
+        "link": "/service/mobile-apps"
+    },
+    {
+        "title": "HR Consultancy",
+        "description": "Guiding Your Workforce Towards Success: HR Consultancy Excellence",
+        "imageUrl": "/images/ourServices/HR.png",
+        "iconUrl": "/images/icons/services/Group7.svg",
+        "link":"/service/hr-consultancy"
+    },
+    {
+        "title": "Seo Services",
+        "description": "We work to bring your business digitally up by using latest marketing tactics on the internet",
+        "imageUrl": "/images/ourServices/Seo.png",
+        "iconUrl": "/images/icons/services/Group1.svg",
+        "link":"/service/seo-services"
+    }
+]

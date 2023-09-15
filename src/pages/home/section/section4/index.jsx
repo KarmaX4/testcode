@@ -5,10 +5,10 @@ import { Box } from '@mui/material'
 
 const Section4 = () => {
   return (
-    <>
+    <Box mb={10}>
       <ProjectCard/>
       <Blog/>
-    </>
+    </Box>
   )
 }
 

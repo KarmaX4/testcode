@@ -1,112 +1,210 @@
-import React from 'react';
-import { Typography, Grid, Box, Container, Button } from '@mui/material';
+"use client";
+import React, { useState, useEffect } from "react";
+import { Typography, Grid, Container, Button, Box } from "@mui/material";
+import Swiper from "swiper";
+import { EffectCards } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/effect-cards";
+import SkywaveButton from "@/pages/Components/ButtonComponent";
+import Image from "next/image";
 
 const LaptopImageGrid = () => {
   const imageStyles = {
-    // width: '100%',
-    // height: 'auto',
-    borderRadius: '10px',
-    backgroundSize: 'cover',
-    position: 'absolute',
+    // height: {
+    //   xs: '17rem',
+    //   sm: '14rem',
+    //   md: '25rem'
+    // },
+    width: {
+      xs: "11rem",
+      sm: "20vw",
+      md: "18rem",
+    },
+    transformOrigin: "center bottom",
+    borderRadius: "10px",
+    backgroundSize: "cover",
+    // backgroundColor: 'red',
+    position: "absolute",
   };
 
   const imagePositions = [
-    // { transform: 'rotate(-18.56deg)', src: '/procjectcard/Mask group-0.svg' },
-    { transform: 'rotate(-8.82°)', src: '/procjectcard/Mask group-1.svg' },
-    { transform: 'rotate(0.61deg)', src: '/procjectcard/Mask group-2.svg' },
-    { transform: 'rotate(11.61°)', src: '/procjectcard/Mask group-3.svg' },
+    { rotate: "-17deg", src: "/procjectcard/Mask group-4.svg" },
+    { rotate: "-4.82deg", src: "/procjectcard/Mask group-3.svg" },
+    { rotate: "6.61deg", src: "/procjectcard/Mask group-2.svg" },
+    { rotate: "17.61deg", src: "/procjectcard/Mask group-1.svg" },
   ];
 
+  const rotationStep = (25 - -17) / 4;
+
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
   return (
-    <>
-      {imagePositions.map(({ transform, src }, index) => (
-        <img key={index} src={src} alt={`Image ${index + 1}`} style={{ ...imageStyles }} />
+    <Box
+      sx={{
+        height: {
+          xs: "25rem",
+          md: "37rem",
+        },
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        position: "relative",
+        overflow: "hidden",
+        // backgroundColor: 'blue',
+      }}
+    >
+      <style>
+        {`
+          @keyframes blinking {
+            0%, 100% {
+              opacity: 1;
+            }
+            50% {
+              opacity: 0;
+            }
+          }
+        `}
+      </style>
+      <Typography
+        variant="body2"
+        sx={{
+          marginBottom: 1,
+          fontSize: "2.875rem",
+          display: {
+            xs: "none",
+            md: "block",
+          },
+          zIndex: 1,
+          color: "azure",
+          fontFamily: "Britannic Bold",
+          animation: hoveredIndex ? "none" : "blinking 2s infinite",
+        }}
+      >
+        {hoveredIndex ? "" : "Hover Me!"}
+      </Typography>
+      {imagePositions.map(({ src }, index) => (
+        <Box
+          key={index}
+          onMouseEnter={() => setHoveredIndex(index)}
+          onMouseLeave={() => setHoveredIndex(null)}
+          sx={{
+            ...imageStyles,
+            transform: {
+              xs: `rotate(${(index * rotationStep - 17).toFixed(2) + "deg"})`,
+              md: `rotate(${
+                hoveredIndex
+                  ? (index * rotationStep - 17).toFixed(2) + "deg"
+                  : 0
+              })`,
+            },
+            transition: "transform 200ms",
+            "&:hover": {
+              transform: `rotate(${
+                (index * rotationStep - 17).toFixed(2) + "deg"
+              })`,
+            },
+          }}
+        >
+          <Image
+            src={src}
+            alt={`Image ${index + 1}`}
+            height={1000}
+            width={1000}
+            style={{ height: "100%", width: "100%" }}
+          />
+        </Box>
       ))}
-  </>
+    </Box>
   );
 };
 
 const ProjectCard = () => {
+  const imagePositions = [
+    "/procjectcard/Mask group-1.svg",
+    "/procjectcard/Mask group-2.svg",
+    // '/procjectcard/Mask group-3.svg',
+  ];
+
+  useEffect(() => {
+    const swiper = new Swiper(".mySwiper", {
+      effect: "cards",
+      grabCursor: true,
+      modules: [EffectCards],
+    });
+  }, []);
+
+  const similarFontStyle = {
+    color: "#C3C3C3",
+    fontFamily: "Lato",
+    fontWeight: "400",
+    lineHeight: "1.1",
+  };
+
   return (
     <Container
       maxWidth={false}
       sx={{
         width: {
-          xs: '100%',
-          md: '88.2rem !important'
+          xs: "80vw",
+          md: "90vw",
         },
+        padding: "0px !important",
+        mb: 10,
+        // backgroundColor: 'blue'
       }}
     >
-      <Grid container alignItems='center'>
-        <Grid item xs={12} md={6}>
+      <Grid container alignItems="center">
+        <Grid item xs={12} sm={6} width={"inherit"}>
           <Typography
-            variant="h2"
+            variant="h1"
             sx={{
-              color: 'white',
-              fontSize: { xs: 48, md: 78.42 },
-              fontFamily: 'Britannic Bold',
-              fontWeight: '400',
-              display: 'inline',
+              color: "white",
+              fontSize: { xs: "43px", md: "78px" },
+              fontFamily: "Britannic Bold",
+              fontWeight: "400",
+              display: "inline",
             }}
           >
-            Our{' '}
-            <Typography variant="span" sx={{ color: '#9AABDB' }}>
+            Our{" "}
+            <Typography variant="span" sx={{ color: "#9AABDB" }}>
               Projects
             </Typography>
           </Typography>
           <Typography
             variant="body1"
             sx={{
-              color: '#C3C3C3',
-              fontSize: {
-                xs: 20,
-                md: 34
+              ...similarFontStyle,
+              fontSize: { xs: "17px" },
+              display: {
+                xs: "block",
+                sm: "none",
               },
-              fontFamily: 'Lato',
-              fontWeight: '400',
-              lineHeight: '1.1',
             }}
           >
             Our portfolio speaks better than words!
           </Typography>
-          <Button
-              variant="contained"
-              size="l"
-              sx={{
-                background: 'linear-gradient(108.46deg, #8372F2 38.19%, #ED6FCB 100%)',
-                borderRadius: '25px',
-                marginTop: '30px',
-                '&:after': {
-                  content: '"\\00BB"',
-                  marginLeft: '5px',
-                  fontSize: '1rem',
-                  opacity: 0, 
-                  transition: 'opacity 200ms ease-in-out', 
-
-                },
-                '&:hover::after': {
-                  opacity: 1,
-                },
-              }}
-            >
-              View More
-            </Button>
-        </Grid>
-        <Grid item xs={12} md={6}>
-          <Box
+          <Typography
+            variant="body1"
             sx={{
-              height: '37rem',
-              // backgroundColor: 'blue',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              position: 'relative',
-              overflow: 'hidden'
+              ...similarFontStyle,
+              fontSize: {
+                sm: 25,
+                md: 34,
+              },
+              pr: 0,
+              display: {
+                xs: "none",
+                sm: "block",
+              },
             }}
           >
-            <img src='/procjectcard/Mask group-3.svg' />
-            <LaptopImageGrid />
-          </Box>
+            Our portfolio speaks better
+            <br /> than words!
+          </Typography>
+          <SkywaveButton placeholder={"View More"} link="/portfolio" />
+        </Grid>
+        <Grid item xs={12} sm={6}>
+          <LaptopImageGrid />
         </Grid>
       </Grid>
     </Container>

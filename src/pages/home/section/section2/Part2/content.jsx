@@ -3,12 +3,9 @@ import React from 'react'
 
 const ContentRely = () => {
 
-    const sameWidth = {
-        xs: "100% !important",
-        md: "88.2rem !important",
-    }
+    const sameWidth = "90vw"
 
-    const sameTextAlign = {
+    const sametextAlign = {
         xs: 'left',
         md: 'left',
     }
@@ -16,23 +13,27 @@ const ContentRely = () => {
     return (
         <Container
             maxWidth={false}
-            background="green"
             sx={{
-                paddingBottom: "6rem",
-                width: sameWidth
+                padding: "0 !important",
+                width: {
+                    xs: '80vw',
+                    md: '90vw'
+                  },
+                m: "1rem auto 3rem",
+                // backgroundColor: '#941564'
             }}
         >
             <Typography
-                variant="h2"
+                variant="h1"
                 color="#fff"
                 fontFamily="Britannic Bold"
                 margin="auto"
                 lineHeight='1'
-                width={{
-                    xs: "90% !important",
-                    md: "88.2rem !important",
-                }}
-                textAlign={sameTextAlign}
+                width='inherit'
+                fontSize='43px'
+                marginBottom='1rem'
+                textAlign={sametextAlign}
+            // backgroundColor='cornflowerblue'
             >
                 You can rely on us!
             </Typography>
@@ -41,12 +42,10 @@ const ContentRely = () => {
                 color="#fff"
                 margin="auto"
                 fontFamily="Lato"
-                fontSize='1.5rem'
-                width={{
-                    xs: "90% !important",
-                    md: "88.2rem !important",
-                }}
-                textAlign={sameTextAlign}
+                fontSize='17px'
+                width='inherit'
+                textAlign={sametextAlign}
+            // backgroundColor='cornflowerblue'
             >
                 A team of designers, developers, quality testers, managers all will work for your project.
             </Typography>

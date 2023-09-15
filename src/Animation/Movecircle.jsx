@@ -77,7 +77,7 @@ const BallAnimation = ({ Blur }) => {
             ctx.closePath();
 
             // Apply blur effect
-            // ctx.filter = `blur(${blurBall}px)`;
+            ctx.filter = `blur(${blurBall}px)`;
         };
 
         animateBalls();

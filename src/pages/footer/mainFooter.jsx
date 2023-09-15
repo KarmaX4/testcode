@@ -6,11 +6,10 @@ import CopyRight from '../CopyRight'
 const MainFooter = () => {
   return (
     <>
-    <ContactBanner/>
-    <Footer/>
-    <CopyRight/>
+      <ContactBanner/>
+      <Footer/>
+      <CopyRight/>
     </>
-
   )
 }
 

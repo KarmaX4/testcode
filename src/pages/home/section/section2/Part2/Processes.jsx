@@ -1,73 +1,89 @@
 import React from 'react'
 import ProcessesIcon from './ProcessesIcon';
 import ProcessesName from './ProcessesName';
-import { Box, Container, Grid } from '@mui/material'
+import { Container, Grid, Typography } from '@mui/material'
 
 const Processes = ({ processName, processDesc, num }) => {
-    let { col1, col2 } = "";
-    if (num % 2 === 0) {
-        col1 = <ProcessesIcon num={num} />;
-        col2 = <ProcessesName processName={processName} />;
-    } else {
-        col2 = <ProcessesIcon num={num} />;
-        col1 = <ProcessesName processName={processName} />;
-    }
 
     return (
         <Container
             maxWidth={false}
             sx={{
-                width:{
-                    xs: "100% !important",
-                    md: "88.2rem !important",
-                },
-                padding: "4rem 0"
+                width: {
+                    xs: '80vw',
+                    md: '90vw'
+                  },
+                padding: "4rem 0 !important",
             }}
         >
-            <Box
-                margin="auto"
-                width={{
-                    xs: "90% !important",
-                    md: "inherit",
-                }}
+            <Grid container
+                alignItems='center'
             >
-                <Grid container>
-                    <Grid
-                        item
-                        xs={12}
-                        sm={6}
-                    >
-                        <Grid 
-                            container 
-                            justifyContent="center"
-                            textAlign= "-webkit-center"
-                            alignItems='center'
-                            spacing={2}
-                            py='1rem'
-                            >
-                            {col1}
-                            {col2}
-                        </Grid>
-                    </Grid>
-                    <Grid
-                        item
-                        xs={12}
-                        sm={6}
-                        alignSelf="left"
-                        fontSize={{
-                            xs: '1rem',
-                            md: "1.6rem"
-                        }}
-                        textAlign='left'
+                <Grid
+                    item
+                    xs={12}
+                    sm={6}
+                    sx={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        flexDirection: 'row',
+                        justifyContent: 'flex-start',
+                        m: {
+                            xs: '0 0 2rem',
+                            sm: '0',
+                        }
+                    }}
+                >
+                    {num % 2 === 0 ? (
+                        <>
+                            <ProcessesIcon num={num} />
+                            <ProcessesName num={num} processName={processName} />
+                        </>
+                    ) : (
+                        <>
+                            <ProcessesName num={num} processName={processName} />
+                            <ProcessesIcon num={num} />
+                        </>
+                    )}
+                </Grid>
+                <Grid
+                    item
+                    xs={12}
+                    sm={6}
+                    sx={{
+                        paddingLeft: '0 !important',
+                    }}
+                >
+                    <Typography
                         sx={{
-                            color: "#fff"
+                            fontWeight: 500,
+                            letterSpacing: '0',
+                            color: "#fff",
+                            fontSize: {
+                                xs: '15px',
+                                md: '20px',
+
+                            },
+                            lineHeight : {
+                                xs: '18px',
+                                md:'29px'
+                            },
+                            textAlign: 'left',
+                            marginLeft: {
+                                xs: 0,
+                                sm: '2rem',
+                                md: 0
+                            },
+                            fontFamily: 'Lato',
+                            // backgroundColor: '#952369',
+                            padding: '0 !important',
                         }}
-                        fontFamily='Lato'
                     >
                         {processDesc}
-                    </Grid>
+                    </Typography>
                 </Grid>
-            </Box>
+            </Grid>
         </Container>
     )
 }

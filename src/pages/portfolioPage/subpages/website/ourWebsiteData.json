@@ -1,0 +1,88 @@
+[
+    {
+        "websiteUrl": "all-about-my-doll-web",
+        "websiteName": "All About My Doll Web",
+        "banner": {
+            "title": "All About My",
+            "subTitle": "Doll Web",
+            "description": "Home /Portfolio / All About My Doll Web",
+            "imageUrl": "/Avatar/AllAboutMyDollWeb.svg"
+        },
+        "about": {
+            "content": "Discover a vibrant online marketplace for doll enthusiasts to buy and sell a diverse range of collectible and vintage dolls, fostering a community passionate about all things dolls",
+            "imageUrl": "/images/portfolio/websiteDetail/About.svg"
+        },
+        "screens": [
+            {
+                "name": "Home Screen"
+            },
+            {
+                "name": "Details Page",
+                "width": "85%"
+            },
+            {
+                "name": "Cart Page",
+                "width": "70%"
+            },
+            {
+                "name": "Address Page",
+                "width": "70%"
+            },
+            {
+                "name": "Payment Page",
+                "width": "70%"
+            },
+            {
+                "name": "Confirm Page",
+                "width": "70%"
+            },
+            {
+                "name": "Other Screens",
+                "width": "130vw"
+            }
+        ]
+    },
+    {
+        "websiteUrl": "website2",
+        "websiteName": "website 2",
+        "banner": {
+            "title": "All About My",
+            "subTitle": "Doll Web",
+            "description": "Home /Portfolio / website 2",
+            "imageUrl": "/Avatar/AllAboutMyDollWeb.svg"
+        },
+        "about": {
+            "content": "Discover a vibrant online marketplace for doll enthusiasts to buy and sell a diverse range of collectible and vintage dolls, fostering a community passionate about all things dolls",
+            "imageUrl": "/images/portfolio/websiteDetail/About.svg"
+        },
+        "screens": [
+            {
+                "name": "Home Screen"
+            },
+            {
+                "name": "Details Page",
+                "width": "85%"
+            },
+            {
+                "name": "Cart Page",
+                "width": "70%"
+            },
+            {
+                "name": "Address Page",
+                "width": "70%"
+            },
+            {
+                "name": "Payment Page",
+                "width": "70%"
+            },
+            {
+                "name": "Confirm Page",
+                "width": "70%"
+            },
+            {
+                "name": "Other Screens",
+                "width": "130vw"
+            }
+        ]
+    }
+]

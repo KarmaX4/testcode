@@ -5,22 +5,34 @@ const ServiceTop = () => {
     return (
         <>
             <Typography
-                variant="h3"
-                fontSize="large"
+                variant="h1"
+
                 fontFamily={"Britannic Bold !important"}
                 color="#fff"
                 sx={{
-                    fontSize: "64px"
+                    // fontFamily: 'Britannic Bold',
+                    fontSize: '79px',
+                    fontWeight: 400,
+                    lineHeight: '65px',
+                    letterSpacing: '2px',
                 }}
             >
-                Service
+                Services
             </Typography>
             <Typography
-                variant="span"
+                variant="h6"
+                fontSize="20px"
                 color="#9AABDB"
                 fontFamily={"Lato"}
+                sx={{
+                    
+                  
+                    fontWeight: 400,
+                    lineHeight: '24px',
+                    letterSpacing: '0em',
+                }}
             >
-                We love & know what we do!
+               We love & know what we do!
             </Typography>
         </>
     )

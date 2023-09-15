@@ -1,0 +1,31 @@
+{
+    "screens": [
+        {
+            "name": "Home Screen"
+        },
+        {
+            "name": "Details Page",
+            "width": "85%"
+        },
+        {
+            "name": "Cart Page",
+            "width": "70%"
+        },
+        {
+            "name": "Address Page",
+            "width": "70%"
+        },
+        {
+            "name": "Payment Page",
+            "width": "70%"
+        },
+        {
+            "name": "Confirm Page",
+            "width": "70%"
+        },
+        {
+            "name": "Other Screens",
+            "width": "130vw"
+        }
+    ]
+}

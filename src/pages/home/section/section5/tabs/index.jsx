@@ -1,6 +1,5 @@
 import React from 'react';
 import { Tab, Box, Tabs, Typography, Divider, Collapse } from '@mui/material';
-import Container from '@mui/material/Container';
 import MobileTabPanel from './tabpanels/MobileTabPanel';
 import DatabaseTabPanel from './tabpanels/DatabaseTabPanel';
 import FrameworksTabPanel from './tabpanels/FrameworksTabPanel';
@@ -39,11 +38,18 @@ export default function Taboptions() {
   );
 
   return (
-    <Container
-      maxWidth={false}
-      width="100%"
+    <Box
+      width={{
+        xs: '80vw',
+        md: '90vw'
+      }}
+      margin='auto'
       sx={{
-        paddingBlock: '10rem',
+        p: {
+          xs: '2rem 0 5rem 0',
+          md: '5rem 0 10rem 0'
+        },
+        // backgroundColor: 'blue'
       }}
     >
       <Box sx={{ textAlign: 'center', mb: 5 }}>
@@ -52,7 +58,7 @@ export default function Taboptions() {
           sx={{
             fontFamily: 'Britannic Bold',
             fontSize: {
-              xs: '40px',
+              xs: '43px',
               md: '64px'
             },
             fontWeight: 400,
@@ -65,11 +71,11 @@ export default function Taboptions() {
         </Typography>
         <Divider
           sx={{
-            backgroundColor: 'purple',
-            height: '2px',
+            background: 'linear-gradient(108.46deg, #8372F2 38.19%, #ED6FCB 100%)',
+            height: '1px',
             mt: 2,
             mx: 'auto',
-            width: '45%',
+            width: '55%',
           }}
         />
       </Box>
@@ -77,28 +83,75 @@ export default function Taboptions() {
         value={value}
         onChange={handleChange}
         variant="scrollable"
-        scrollButtons={false}
         textColor="secondary"
-        indicatorColor="secondary"
+
         aria-label="secondary tabs example"
         sx={{
+          '& .MuiTabs-indicator': {
+            display: 'flex',
+            justifyContent: 'center',
+            backgroundColor: 'transparent',
+            '&::before': {
+              content: '""',
+              position: 'absolute',
+              bottom: 0,
+              left: 0,
+              right: 0,
+              height: 2, // Customize the indicator height
+              backgroundImage: 'linear-gradient(108.46deg, #8372F2 38.19%, #ED6FCB 100%)',
+            },
+          },
+          mb: 6,
+          px: {
+            sm: 10, xs: 1
+          },
           borderBottom: 1,
-          borderColor: 'secondary',
+          // borderColor: 'secondary',
           overflowX: 'auto',
           "& .MuiTab-root": {
+            justifyContent: {
+              xs: 'normal',
+              md: 'center'
+            },
             fontSize: "22px",
-            paddingLeft: "15px",
+            paddingLeft: {
+              xs: '10px',
+              md: "15px"
+            },
             textTransform: "none",
             backgroundColor: 'transparent',
             color: 'white',
             '&.Mui-selected': {
-              color: 'secondary.main',
+              // color: 'secondary.main',
+              backgroundImage: 'linear-gradient(108.46deg, #8372F2 38.19%, #ED6FCB 100%)',
+              backgroundClip: 'text',
+              WebkitBackgroundClip: 'text',
+              color: 'transparent',
             },
           },
+          '& .css-heg063-MuiTabs-flexContainer': {
+            justifyContent: {
+              xs: 'normal',
+              // md: 'center'
+            }
+          },
+          '& .css-ptiqhd-MuiSvgIcon-root': {
+            fill: '#ca25ffed',
+            height: '100%',
+            width: '100%',
+            '&:hover': {
+              fill: '#995ceb',
+            }
+          }
         }}
       >
         {tabData.map((tab, index) => (
-          <Tab key={index} label={tab.label} />
+          <Tab sx={{
+            mr: { sm: 8 },
+            fontSize: {
+              xs: '19px'
+            }
+          }} key={index} label={tab.label} />
         ))}
       </Tabs>
       {tabData.map((tab, index) => (
@@ -106,6 +159,6 @@ export default function Taboptions() {
           {tab.panel}
         </TabPanel>
       ))}
-    </Container>
+    </Box>
   );
 }

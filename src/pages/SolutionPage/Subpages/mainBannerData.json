@@ -1,0 +1,16 @@
+[
+    {
+      "title": "Title",
+      "subtitle": "Banner",
+      "description": "Banner A Description",
+      "imageUrl": "path-to-image-A"
+      
+    },
+    {
+      "title": "Banner B Title",
+      "subtitle": "Banner B Subtitle",
+      "description": "Banner B Description",
+      "imageUrl": "path-to-image-B"
+     
+    }
+  ]

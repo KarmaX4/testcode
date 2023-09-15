@@ -11,60 +11,66 @@ const AS3 = () => {
                 sx={{
                     margin: 'auto',
                     padding: '0px !important',
-                    // width: {
-                    //     lg: '100%',
-                    //     xl: '88.2rem'
-                    // }
                     width: '100%',
-                    marginBottom: '11.7rem'
+                    marginBottom: { md: '11.7rem', sm: '23rem', xs: "20rem" }
                 }}
             >
                 <Box position={'relative'}>
-                    <img
+                    <Box
+                        component='img'
                         src={'/images/about/hand.png'}
                         alt={'handhake'}
-                        height={"521px"}
-                        style={{
+                        sx={{
+                            height: { xs: "50.8%", sm: "60%", md: "521px" },
                             position: 'absolute',
-                            zIndex: '-1',
-                            // left: '-3rem'
+                            zIndex: '0',
+                            top: {
+                                lg: '-3rem',
+                                md: '-2rem',
+                                xs: '-1rem',
+                            },
+                            left: {
+                                xs: '-5.6rem',
+                                sm: '0'
+                            }
                         }}
                     />
-                    <Box margin="8rem"
-                        // backgroungColor='#984165'
+                    <Box
                         sx={{
-                            marginRight: '19.4rem'
+                            marginLeft: { xs: '7.5rem', md: '25.5rem', sm: "15.4rem" },
+                            marginBlock: '4rem',
+                            width: 'fit-content',
+                            position: 'relative',
+                            zIndex: '1'
                         }}
                     >
                         <Typography
                             varient='div'
                             sx={{
                                 fontFamily: 'Britannic Bold',
-                                fontSize: '79px',
+                                fontSize: { xs: "43px", md: '65px', lg: '79px' },
                                 fontWeight: 400,
-                                lineHeight: '65px',
+                                lineHeight: { xs: "43px", md: '65px' },
                                 letterSpacing: '3px',
-                                textAlign: 'right',
-                                color: 'white'
+                                textAlign: { xs: "left", md: 'left' },
+                                color: 'white',
+                                overflow: 'unset',
                             }}
-                            noWrap
                         >
                             <Typography
                                 component="span"
-                                style={{
+                                sx={{
                                     fontFamily: 'Britannic Bold',
-                                    fontSize: '79px',
+                                    fontSize: 'inherit',
                                     fontWeight: 400,
                                     lineHeight: '65px',
                                     letterSpacing: '2px',
                                     width: '163px',
                                     height: '66px',
                                     color: 'transparent',
-                                    // position: 'absolute',
                                     zIndex: '2',
-                                    // top: 45,
                                     WebkitTextStroke: '2px #FFFFFF',
-                                    // left: "26.8%"
+                                    overflow: 'unset',
                                 }}
                             >
                                 Trus
@@ -74,13 +80,15 @@ const AS3 = () => {
                         <Typography
                             component='div'
                             sx={{
+                                display: { xs: 'none', sm: 'block' },
                                 fontFamily: 'Lato',
-                                fontSize: '28px',
+                                fontSize: { md: '28px', xs: '20px', sm: '15px' },
                                 fontWeight: 300,
                                 lineHeight: '65px',
                                 letterSpacing: '0em',
                                 textAlign: 'right',
-                                color: 'white'
+                                color: 'white',
+                                overflow: 'unset',
                             }}
                             noWrap
                         >
@@ -88,9 +96,6 @@ const AS3 = () => {
                         </Typography>
                     </Box>
                     <Box
-                        sx={{
-                            // backgroundColor: '#941265'
-                        }}
                         position={'relative'}
                         zIndex={'1'}
                         width='inherit'

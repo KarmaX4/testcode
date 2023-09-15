@@ -1,11 +1,6 @@
+import PortFolioPage from '@/pages/portfolioPage'
 import React from 'react'
-import Navbar from '@/pages/navbar'
 
 export default function Portfolio() {
-  return (
-    <>
-      <Navbar />
-      <div>Portfolio</div>
-    </>
-  )
+  return <PortFolioPage/>
 }

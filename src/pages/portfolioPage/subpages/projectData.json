@@ -1,0 +1,78 @@
+[
+    {
+        "portfolioName": "ShoppieOX App",
+        "folderName": "ShoppieOXApp",
+        "type": "app",
+        "banner": {
+            "title": "ShoppieOX",
+            "subTitle": "App",
+            "description": "Home / Portfolio / ShoppieOx App",
+            "imageUrl": "/images/portfolio/ShoppieOXApp/ShoppieOX.svg"
+        },
+        "about": {
+            "number": "01",
+            "title": "About the project",
+            "description": "Experience a new era of shopping with <t>ShoppieOx!</t> Our all-in-one e-commerce app is here to transform how you shop. ShoppieOx redefines convenience, quality and variety, delivering an unmatched shopping adventure at your fingertips.",
+            "subDescription": "Explore an unparalleled world of convenience, quality and variety in our all-in-one e-commerce app.",
+            "imageSrc": "/images/portfolio/ShoppieOXApp/aboutlogo.svg"
+        },
+        "colorSection": {
+            "c1": ["#FC6828", "#FFA37B"],
+            "c2": ["#9C9C9C", "#09051C", "#FAFAFA"],
+            "font": "Metropolis"
+        },
+        "purchaseProcess": {
+            "itemTitles": [
+                "Home Screen",
+                "Product Screen",
+                "Cart Screen",
+                "Checkout Screen",
+                "Payment Screen"
+              ]
+        }
+    },
+    {
+        "portfolioName": "All About My Doll Web",
+        "folderName": "DollWeb",
+        "type": "web",
+        "banner": {
+            "title": "All About My",
+            "subTitle": "Doll Web",
+            "description": "Home /Portfolio / All About My Doll Web",
+            "imageUrl": "/Avatar/AllAboutMyDollWeb.svg"
+        },
+        "about": {
+            "content": "Discover a vibrant online marketplace for doll enthusiasts to buy and sell a diverse range of collectible and vintage dolls, fostering a community passionate about all things dolls",
+            "imageUrl": "/images/portfolio/websiteDetail/About.svg"
+        },
+        "screens": [
+            {
+                "name": "Home Page"
+            },
+            {
+                "name": "Details Page",
+                "width": "85%"
+            },
+            {
+                "name": "Cart Page",
+                "width": "70%"
+            },
+            {
+                "name": "Address Page",
+                "width": "70%"
+            },
+            {
+                "name": "Payment Page",
+                "width": "70%"
+            },
+            {
+                "name": "Confirm Page",
+                "width": "70%"
+            },
+            {
+                "name": "Other Pages",
+                "width": "130vw"
+            }
+        ]
+    }
+]

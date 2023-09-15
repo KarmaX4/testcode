@@ -1,0 +1,233 @@
+[
+    {
+        "title": "GPS",
+        "subTitle": "Tracking",
+        "description": "Build navigation and location-based next-gen applications with our robust GPS tracking solutions.",
+        "subDescription": "We are global partners in providing robust and white labeled GPS tracking software. Our objective is to ease-up the lives of human by leveraging GPS technology and transforming it into adaptive and low-cost business applications. With an intuitive user interface, we develop GPS based applications which are mobile-friendly and easy to use.\n\nOur GPS applications includes push notifications, real-time tracking, history and reports, vehicle health monitoring and many other expert features only developed by Skywave Info Solutions. Below are some of our expert solutions,",
+        "imageSrc": "/images/Solutions/GPS Tracking.svg",
+        "listData": [
+            "Asset Tracking System",
+            "School Bus Tracking System",
+            "Geo Tracking and Geo-fencing",
+            "Fleet Management System",
+            "Cab Booking System",
+            "Vehicle Sharing System"
+        ],
+        "postition": {
+            "rotate": "350deg",
+            "position": "absolute",
+            "width": "135%",
+            "aspectRatio": "1/1",
+            "left": "-15%",
+            "top": "-15%"
+        }
+    },
+    {
+        "title": "Internet",
+        "subTitle": "of Things",
+        "description": "Create an easier life with Internet of Things applications.",
+        "subDescription": "Internet of Things has already taken place of lots of manual tasks in day-to-day life. With the main aim to facilitate lifestyle of people, and providing power to accomplish things with finger taps and voice technology, IoT is one of the most growing technology in the world. IoT applications developed by team of experts at Skywave Info Solutions are very efficient and scalable in nature.\n\nWe have server more our clients with best IoT solution by giving proper consultation. Our solution includes lower market risk and higher profitability for businesses.",
+        "imageSrc": "/images/Solutions/Internet of Things.svg",
+        "listData": [
+            "Smart Home Integration",
+            "Smart Plantation and Automation",
+            "Connected Devices Solution",
+            "Smart Restaurant System",
+            "Smart Library System",
+            "Smart Car Device Integration"
+        ],
+        "postition": {
+            "rotate": "345deg",
+            "position": "absolute",
+            "width": "125%",
+            "aspectRatio": "1/1",
+            "left": "-9%",
+            "top": "-5%"
+        }
+    },
+    {
+        "title": "Beacon",
+        "subTitle": "Solutions",
+        "description": "Low powered Bluetooth solution for any businesses.",
+        "subDescription": "Beacon being low powered bluetooth chip or device, has lots of usability in real life. Many possibilities in fields of marketing, healthcare industry, analytics, manufacturing industry have been implemented through beacon app development. Beacon is beautiful chip which can be integrated anywhere and monitoring in various formats can be done.\n\nSkywave Info Solutions has expertise in developing beacon integrated systems and even have consulted businesses for the usage of beacon in any specific industry to gain more profit and benefits from it. Here are some of our most used beacons solutions,",
+        "imageSrc": "/images/Solutions/Beacon.svg",
+        "listData": [
+            "Beacon Based Healthcare System",
+            "Real Estate Marketing",
+            "Art Gallery Awareness System",
+            "Automobile and Logistics Solutions",
+            "Store Offers and Discount Awareness",
+            "Proximity Marketing"
+        ],
+        "postition": {
+            "rotate": "350deg",
+            "position": "absolute",
+            "width": "135%",
+            "aspectRatio": "1/1",
+            "left": "-10%",
+            "top": "-15%"
+        }
+    },
+    {
+        "title": "On Demand",
+        "subTitle": "Marketplace",
+        "description": "World is transforming and they want things on demand",
+        "subDescription": "Customers are always looking for easy delivery of products, services, or whatever items you are selling as a business. On-demand applications can serve as the best way to promote and help you acquire repeat customers for your business. Our experts have helped many owners transform their businesses with growth hacking strategies by developing mobile applications and web portals.\n\nUsers can find everything in one place and can choose, compare, mark as a favorite, and perform various actions within the app. This way, owners can gain insights into customer choices and improve and manage their services accordingly.",
+        "imageSrc": "/images/Solutions/On Demand Marketplace.svg",
+        "listData": [
+            "On Demand Food Delivery Solutions",
+            "On Demand Healthcare Solutions",
+            "On Demand Ecommerce Platform",
+            "On Demand Movers and Packers",
+            "On Demand Taxi Booking App",
+            "On Demand Project Development"
+        ],
+        "postition": {
+            "rotate": "350deg",
+            "position": "absolute",
+            "width": "125%",
+            "aspectRatio": "1/1",
+            "left": "-10%",
+            "top": "-15%"
+        }
+    },
+    {
+        "title": "Catalogue",
+        "subTitle": "Solutions",
+        "description": "Go digital anywhere and showcase your brand.",
+        "subDescription": "People have no space to store your business’ marketing material for their reference even if they need. We have unique catalogue solutions for any businesses which can be opted to have your business stand out of the box. Smart glass, AR, VR and many other technologies have made it possible for owners to get their own catalogue application.\n\nThrough digital marketing via catalogue solutions, one can save lots of papers and make the material reusable. This will automatically decrease the cost and increase ROI. Below are some solutions for various industries,",
+        "imageSrc": "/images/Solutions/Catalogue.svg",
+        "listData": [
+            "Product Catalogue App Development",
+            "Food Menu App Development",
+            "Beacon Based Catalogue App Development",
+            "E-Catalogue for Ceramic Industry",
+            "E-Catalogue for Hardware and Tools",
+            "Custom Catalogue Solutions"
+        ],
+        "postition": {
+            "rotate": "350deg",
+            "position": "absolute",
+            "width": "135%",
+            "aspectRatio": "1/1",
+            "left": "-10%",
+            "top": "-10%"
+        }
+    },
+    {
+        "title": "Voice Enabled",
+        "subTitle": "Solutions",
+        "description": "Voice searches on search engines are increasing.",
+        "subDescription": "Searches over internet are changing into voice searches. Meanwhile, voice enabled technology has also taken a huge curve in IT industry. Alexa, Google Home, Apple Siri are already dominating the voice enabled industry. Leveraging these devices, developers at Skywave Info Solutions has created useful applications for individual businesses to help them interact with their customers in better ways.\n\nWe help in developing voice skills for Alexa and other voice enabled platforms. Era of typing over the screen has went away and don’t let your organization remain in less advanced level of technology. Find some solutions below to get an idea of how voice enabled technology can help your business.",
+        "imageSrc": "/images/Solutions/Voice Enabled.svg",
+        "listData": [
+            "Voice Technology App For Friendly Disabled",
+            "Real Estate Agents Marketing App",
+            "Alexa App Development",
+            "Alexa Skill Development",
+            "Voice Enabled Chatbot",
+            "Customized Voice Skills Development"
+        ],
+        "postition": {
+            "rotate": "350deg",
+            "position": "absolute",
+          
+            "aspectRatio": "1/1",
+            "left": "-52%",
+            "top":"-5%"
+           
+        }
+    },
+    {
+        "title": "Automotive &",
+        "subTitle": "Logistics",
+        "description": "Track everything and get dynamic reports in your logistics business.",
+        "subDescription": "We have helped lots of Automotive industry with our advance solutions. We were able to help industries achieve more revenue after applying IoT and cloud based automobile solutions. Endless number of problems have been solved and process has become more smooth. By integrating GPS technology, we we able to give optimum product which has automatic procedure and decision making capabilities.\n\nSuch logistics solutions have cut the cost and increase the efficiency in the industry, while increasing the employment standard. Transportation has become easiest thing after implementing process driven applications in business. Have a look at some of our automotive and logistics solutions below,",
+        "imageSrc": "/images/Solutions/Automotive and Logistics.svg",
+        "listData": [
+            "Inbound Logistics Solutions",
+            "Internal Logistics Maintenance",
+            "Network Planning System",
+            "Transport Management App Development",
+            "Vehicle Diagnostic Solution",
+            "Cloud Based Logistic Solution"
+        ],
+        "postition": {
+            "rotate": "350deg",
+            "position": "absolute",
+            "width": "135%",
+            "aspectRatio": "1/1",
+            "left": "-12%",
+            "top": "-3%"
+        }
+    },
+    {
+        "title": "Lifestyle &",
+        "subTitle": "Hospitality",
+        "description": "Treat your customers with easy to go support and solutions",
+        "subDescription": "Owning a Hotel or resort? Then you might have thought of giving the utter comfort to your customers by any means. IT solutions for lifestyle and hospitality can make huge difference in this industry. Technologies like IoT, chatbot, iBeacons are blooming in the industry and have proven success ratio. Smart mobile applications give power to users to choose what’s perfect for their life and what fits in the best ways.\n\nOur developers have already developed many mobile and web based applications to make life easier. Couple of taps can bring you what you need in front and this is the beauty of technology in lifestyle and hospitality industry.",
+        "imageSrc": "/images/Solutions/Lifestyle and Hospitality.svg",
+        "listData": [
+            "Online Food Delivery Platform",
+            "Smart Retail Management",
+            "Restaurant Booking App Development",
+            "Travel Booking App Development",
+            "Dating App Development",
+            "Beacon Based Marketing Solution"
+        ],
+        "postition": {
+            "rotate": "350deg",
+            "position": "absolute",
+            "width": "145%",
+            "aspectRatio": "1/1",
+            "left": "-27%",
+            "top": "-18%"
+        }
+    },
+    {
+        "title": "Integrated",
+        "subTitle": "Chatbot",
+        "description": "Automate your system with AI enabled chatbots!",
+        "subDescription": "Chatbots are ruling over almost all industries. Who doesn’t like quick and proper response for their queries? Chatbots have power to accomplish them all and giving satisfied user experience over various platforms like mobile or web. Our experts can give you relevant and proper guidance for integrating chatbot in your web or mobile applications.\n\nWe have expertise in developing chatbots in various platforms and train them to be the best in front of your customers. We develop chatbots which can learn things by themselves and become smarter day-by-day. Our E-commerce chatbots have helped many online shopping businesses to make huge profit by automating the process and smooth conversation. Find some of out solutions below,",
+        "imageSrc": "/images/Solutions/Integrated Chatbot.svg",
+        "listData": [
+            "Facebook Chatbot Development",
+            "Restaurant Chatbot Development",
+            "WhatsApp Chatbot Development",
+            "Machine Learning Chatbots",
+            "Custom Bot Development",
+            "Chatbot SDK Integration in Existing App"
+        ],
+        "postition": {
+            "rotate": "350deg",
+            "position": "absolute",
+            "width": "125%",
+            "aspectRatio": "1/1",
+            "left": "-8%",
+            "top": "-12%"
+        }
+    },
+    {
+        "title": "Healthcare",
+        "subTitle": "Solutions",
+        "description": "Build HIPAA compliance applications for your healthcare services.",
+        "subDescription": "Healthcare is one of the top growing industry and people have seriously started taking care of themselves. Skywave Info Solutions has expert in-house and white labeled solutions for health and fitness industries. We offer healthcare business consulting, application development and maintenance, testing, research and development.\n\nWe understand the necessity and importance of healthcare solutions in ones life and thereby we have experienced developers who help in developing the best application by inputting own insights. We believe in providing the solutions which meets your business goals with the safety keeping in mind. Find some of our healthcare and fitness solutions which we have expertise in,",
+        "imageSrc": "/images/Solutions/Healthcare.svg",
+        "listData": [
+            "Automatic Health Check Up and Reminder",
+            "Smart Apps to Store Data Insights",
+            "Connected Life Solutions",
+            "Therapy Management Software",
+            "Laboratory Diagnostics Solutions",
+            "Fitness Wearable Solutions"
+        ],
+        "postition": {
+            "rotate": "350deg",
+            "position": "absolute",
+            "width": "135%",
+            "aspectRatio": "1/1",
+            "left": "-10%",
+            "top": "-15%"
+        }
+    }
+]

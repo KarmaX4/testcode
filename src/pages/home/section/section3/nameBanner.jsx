@@ -1,5 +1,5 @@
-import { Box, Container, Typography, Grid, Divider } from '@mui/material';
-import React, { useState, useEffect } from 'react';
+import { Box, Container, Typography, Grid, Divider } from "@mui/material";
+import React, { useState, useEffect } from "react";
 
 const NummberCard = () => {
   const finalValues = [95, 50, 26, 150];
@@ -9,12 +9,14 @@ const NummberCard = () => {
     const animationDuration = 2000;
     const step = 50;
     const totalSteps = animationDuration / step;
-    const countSteps = finalValues.map(value => value / totalSteps);
+    const countSteps = finalValues.map((value) => value / totalSteps);
 
     let currentCounts = Array(4).fill(0);
 
     const timer = setInterval(() => {
-      currentCounts = currentCounts.map((count, index) => Math.min(count + countSteps[index], finalValues[index]));
+      currentCounts = currentCounts.map((count, index) =>
+        Math.min(count + countSteps[index], finalValues[index])
+      );
       setCounts(currentCounts);
 
       if (currentCounts.every((count, index) => count >= finalValues[index])) {
@@ -26,129 +28,173 @@ const NummberCard = () => {
   }, []);
 
   const nameBannerStyles = {
+    position: "relative",
     width: {
-      xs: '100%',
-      md: '100%',
+      xs: "100%",
+      md: "100%",
     },
-    overflow: 'hidden'
+    overflow: "hidden",
+    display: "flex",
+    zIndex: 1,
   };
 
   const nameBannerNumberStyles = {
     fontSize: {
-      xs: '3rem',
-      md: '71.06px'
+      xs: "2.3rem",
+      md: "71.06px",
     },
-    letterSpacing: '0.06em',
-    lineHeight: '111.5%',
+    letterSpacing: "0.06em",
+    lineHeight: "111.5%",
     fontWeight: 800,
-    fontFamily: 'Lato',
-    color: '#fff',
-    textAlign: 'center',
+    fontFamily: "Lato",
+    color: "#fff",
+    textAlign: "center",
     margin: "auto",
   };
 
   const nameBannerTextStyles = {
-    position: 'relative',
+    position: "relative",
     fontSize: {
-      xs: '16px',
-      md: '33.33px'
+      xs: "1rem",
+      sm: "1.5vh",
+      md: "28px",
+      lg: "33.33px",
     },
-    letterSpacing: '2.26px',
+    letterSpacing: "1.26px",
     lineHeight: {
-      xs: '20px',
-      md: '35px'
+      xs: "15px",
+      sm: "1.5vh",
+      md: "35px",
     },
-    fontFamily: 'Britannic Bold',
-    color: '#b8ceff',
-    textAlign: 'center',
+    fontFamily: "Britannic Bold",
+    color: "#b8ceff",
+    textAlign: "center",
+    whiteSpace: "pre-line",
   };
-
-  const splitDivider = index => (index < counts.length - 1
-    ? ({
-      borderRight: {
-        xs: index === 1 ? '0px solid #ED6FCB' : '6px solid #ED6FCB',
-        md: '6px solid #ED6FCB',
-      }
-    })
-    : {}
-);
 
   return (
     <Container maxWidth={false} sx={nameBannerStyles}>
       <Box
         sx={{
           backgroundColor: "#fff",
-          position: 'relative',
-          borderRadius: {
-            // xs: '160px',
-            xs: '160px 0px 0px 160px'
-          },
-          background: 'linear-gradient(106.84deg, #9257af, #191249)',
-          width: {
-            xs: 'auto',
-            md: 'inherit'
-          },
+          position: "relative",
+          width: "inherit",
           height: {
-            xs: 'auto',
-            md: '281px'
+            xs: "auto",
+            md: "281px",
           },
-          marginBottom: '10rem',
           ml: {
             xs: 0,
-            md: 6
+            md: 6,
           },
-          display: 'flex',
-          alignItems: 'center',
-          placeContent: 'center',
-          justifyContent: 'center',
+          display: "flex",
+          alignItems: "center",
+          placeContent: "center",
+          justifyContent: "center",
           padding: {
-            xs: '5rem 3rem',
-            md: 0
+            xs: "2rem 2rem",
+            md: 0,
           },
+          background: "#fff0",
         }}
-        >
+      >
         <Grid
           container
           spacing={2}
-          flexWrap= {{
-            xs: 'wrap !important',
-            md: 'nowrap !important'
+          flexWrap={{
+            xs: "wrap !important",
+            md: "nowrap !important",
           }}
-          width={{
-            xs: '100%',
-            md: '88.2rem',
+          width="80vw"
+          sx={{
+            margin: "0 !important",
           }}
         >
           {counts.map((count, index) => (
-              <Grid key={index} item xs={6} sm={3}
+            <React.Fragment key={index}>
+              <Grid
+                item
+                xs={6}
+                sm={3}
                 sx={{
-                  paddingTop: '0 0 16px 16px !important',
-                  // paddingLeft: '0 !important',
-                  // paddingBottom: '16px !important',
-                  // paddingRight: '16px !important',
+                  paddingBlock: {
+                    xs: "1.5rem",
+                    sm: "0",
+                  },
+                  display: "flex",
+                  justifyContent: {
+                    xs: "space-between",
+                    sm: "space-around",
+                  },
                 }}
               >
                 <Box
                   sx={{
-                    ...splitDivider(index),
-                    // backgroundColor: 'red',
-                    height: {
-                      xs: '6rem',
-                      md: '11rem'
+                    display: {
+                      xs: "flex",
+                      sm: "block",
                     },
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    height: {
+                      xs: "5rem",
+                      md: "11rem",
+                    },
+                    mr: 0,
+                    width: "100%",
+                    gap: "1rem",
                   }}
                 >
-                <Typography variant="h1" sx={nameBannerNumberStyles}>
-                  {Math.round(count)}{index === 0 ? '%' : '+'}
-                </Typography>
-                <Typography sx={nameBannerTextStyles}>
-                  {['Customer Satisfaction', 'Specialists in our team', 'Industry Serve', 'Successful Projects'][index]}
-                </Typography>
+                  <Typography variant="h1" sx={nameBannerNumberStyles}>
+                    {Math.round(count)}
+                    {index === 0 ? "%" : "+"}
+                  </Typography>
+                  <Typography sx={nameBannerTextStyles}>
+                    {
+                      [
+                        "Customer\nSatisfaction",
+                        "Specialists\nin our team",
+                        "Industry\nServe",
+                        "Successful\nProjects",
+                      ][index]
+                    }
+                  </Typography>
                 </Box>
+                {index < counts.length - 1 && (
+                  <Divider
+                    sx={{
+                      width: "6px",
+                      display: {
+                        xs: index === 1 ? "none" : "block",
+                        sm: "block",
+                      },
+                      background:
+                        "linear-gradient(90deg, #8372F2 38.19%, #ED6FCB 100%)",
+                    }}
+                    orientation="vertical"
+                    flexItem
+                  />
+                )}
               </Grid>
+            </React.Fragment>
           ))}
         </Grid>
       </Box>
+      <Box
+        sx={{
+          zIndex: "-1",
+          position: "absolute",
+          height: "100%",
+          width: "100%",
+          borderRadius: {
+            xs: "10rem 0px 0px 10rem",
+            sm: "160px 0px 0px 160px",
+          },
+          background:
+            "linear-gradient(106.84deg, #9257AF -40%, #191249 99.25%)",
+        }}
+      />
     </Container>
   );
 };

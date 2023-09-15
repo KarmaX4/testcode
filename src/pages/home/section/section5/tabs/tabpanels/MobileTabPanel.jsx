@@ -1,14 +1,26 @@
-import React from 'react';
-import Grid from '@mui/material/Grid';
+import React from "react";
+import { Box, Grid } from "@mui/material";
+import Image from "next/image";
 
 const MobileTabPanel = () => {
-  const logos = Array.from({ length: 6 }, (_, index) => `/icons/tabs/mobile/download (${index + 18}).svg`);
+  const logos = Array.from(
+    { length: 6 },
+    (_, index) => `/images/icons/tabs/mobile/download (${index + 18}).svg`
+  );
 
   return (
-    <Grid container spacing={2} justifyContent="center">
+    <Grid
+      container
+      spacing={2}
+      justifyContent={{
+        xs: "flex-start",
+        sm: "center",
+      }}
+    >
       {logos.map((logo, index) => (
-        <Grid 
-        item
+        <Grid
+          item
+          padding="0 !important"
           key={index}
           xs={12}
           sm={6}
@@ -16,18 +28,29 @@ const MobileTabPanel = () => {
           lg={3}
           xl={2}
           sx={{
-            display: 'flex',
-            justifyContent: 'center',
-            maxWidth: 'calc(100% / 3)', 
-            '@media (min-width: 700px)': {
-              maxWidth: 'calc(100% / 4)', 
+            display: "flex",
+            justifyContent: "center",
+            maxWidth: "calc(100% / 3)",
+            "@media (min-width: 700px)": {
+              maxWidth: "calc(100% / 4)",
             },
-            '@media (min-width: 960px)': {
-              maxWidth: 'calc(100% / 7)',
+            "@media (min-width: 960px)": {
+              maxWidth: "calc(100% / 7)",
             },
           }}
         >
-          <img src={logo} alt={`Logo ${index}`} style={{ width: '85px', height: '85px' }} />
+          <Box style={{ width: "65%", height: "85px" }}>
+            <Image
+              src={logo}
+              alt={`Logo ${index}`}
+              width={1000}
+              height={1000}
+              style={{
+                width: "100%",
+                height: "100%",
+              }}
+            />
+          </Box>
         </Grid>
       ))}
     </Grid>

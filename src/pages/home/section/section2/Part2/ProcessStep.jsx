@@ -5,7 +5,7 @@ import { Chip, Divider } from '@mui/material'
 const ProcessStepData = [
   {
     processName: "Make Real Differences",
-    processDesc: "Our tailored solutions bring real changes to business processes, saving time and increasing ROI. We carefully select projects where we can make a positive impact and add value"
+    processDesc: "Our tailored solutions bring real changes to business processes, saving time and increasing ROI. We carefully select projects where we can make a positive impact and add value."
   },
   {
     processName: "Hand Crafted Designs",
@@ -22,37 +22,39 @@ const ProcessStepData = [
 ]
 
 const ProcessStep = () => {
-
+  const chipInterval = 100 / (ProcessStepData.length - 1);
   return (
     <>
       {
         ProcessStepData.map((val, index) => (
           <div key={index}>
             <Divider
-             sx={{ 
-               margin:"auto",
-               width: {
-                xs: "100% !important",
-                md: "88.2rem !important",
-              },
-              borderBottom: "1px solid #fff", 
-              height: "0px", 
-              position: "relative" 
-              }} 
-              >
+              sx={{
+                margin: "auto",
+                width: "100% !important",
+                borderBottom: "1px solid #fff",
+                height: "0px",
+                position: "relative"
+              }}
+            >
               <Chip
-                label={`${index + 1}`}
+                // label={`${Math.ceil(index * chipInterval)}`}
+                label={`0${index + 1}`}
                 sx={{
                   position: "absolute",
                   bottom: "-15px",
-                  left: `${(index+1) * 20}%`,
+                  // left: `83.5%`,
+                  left: `${Math.ceil(index * chipInterval)}vw`,
                   width: "4.5rem",
                   background: "linear-gradient(118.08deg, #8372F2 38.57%, #ED6FCB 97.89%)",
+                  translate: index === 0 ? "50%" : index === ProcessStepData.length - 1 ? "-150%" : "-70%",
+                  transform: "translateZ(10px)", // Add a transform for 3D effect
+                  boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.5)",
                   color: "#ffffff",
                   border: "1px solid #fff",
                   transition: "left 2s",
-                  '&:hover':{
-                    left: "0%"
+                  '&:hover': {
+                    left: "-50%"
                   },
                 }}
               />

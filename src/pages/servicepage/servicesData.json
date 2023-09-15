@@ -1,0 +1,322 @@
+{
+    "WebsiteData": [
+        {
+            "title": "Php Web",
+            "subTitle": "Development",
+            "description": "Build highly dynamic web apps with PHP frameworks",
+            "subdescription": "Performance is the key for any web app development and Skywave offers the best according to the business requirements. Skywave has proven expertise in a wide range of PHP frameworks to run rings around business rivals. Tailoring powerful web application to your business process can help your organization to gain remarkable growth.",
+            "imageSrc": "/images/services/Websites/WebsitesService1.svg",
+            "listData": [
+                "Zend Framework",
+                "API Development",
+                "Joomla Development",
+                "Magento Development",
+                "Opencart Development",
+                "Drupal Development",
+                "Yii Framework Development",
+                "PSD to HTML Development",
+                "WordPress CMS Development",
+                "Laravel Framework Development"
+            ]
+        },
+        {
+            "title": "Dot Net Web",
+            "subTitle": "Development",
+            "description": "Flexible, secure and robust software development",
+            "subdescription": "For enterprise application, Dot Net Development proves to be the best framework. Skywave Info Solutions thrives to deliver the most advanced Dot Net solution to clients. We deliver the system which can sustain for over years and provide full support and maintenance. Our applications developed with Dot Net backend have a reactive frontend for seamless functioning of web app.\n\nWe help develop your website into a powerful business tool with many more features and rich functionalities. We completely understand clients' requirements and provide customized solutions to their satisfaction. Some of our Dot Net services include:",
+            "imageSrc": "/images/services/Websites/WebsitesService2.svg",
+            "listData": [
+                "E-commerce Website Development",
+                "CMS Development",
+                "API Development",
+                "Salesforce",
+                "Sharepoint Development",
+                "Desktop Application Development"
+            ]
+        },
+        {
+            "title": "WordPress Web",
+            "subTitle": "Development",
+            "description": "Used by millions of people to create websites and CMS",
+            "subdescription": "Being the No.1 CMS framework, WordPress comes with lots of default features that are easy to use and scalable. Developers at Skywave Info Solutions do not just develop websites by installing themes and updating content; we work on core designs and customizations as per the requirement. We focus on developing pleasant and appealing designs to make you stand out from your competitors.\n\nWe offer WordPress services to a variety of industries like Real Estate, Corporates, Healthcare, Educational Institutes. So if you are looking for a WordPress Development Company in Ahmedabad, India, then contact us now. Below is the list of WP services we offer:",
+            "imageSrc": "/images/services/Websites/WebsitesService3.svg",
+            "listData": [
+                "WordPress Theme Development",
+                "WordPress Plugin Development",
+                "WooCommerce Development",
+                "One Page Business Website Development",
+                "WordPress Installation and Configuration",
+                "WordPress Support and Maintenance"
+            ]
+        },
+        {
+            "title": "Full stack Web",
+            "subTitle": "Development",
+            "description": "Taking care of your project from design to deployment",
+            "subdescription": "Unparalleled solutions to create an exceptional web application by leveraging the power of MVC architecture focusing on logic, presentation, and data. Amalgamation of different JavaScript languages allows us to develop complex web application processes. MEAN stack technology, an acronym of MongoDB, Express.js, Angular.js, and Node.js, serves as a complete technology solution to develop innovative full-stack web applications for varied business processes.",
+            "imageSrc": "/images/services/Websites/WebsitesService4.svg",
+            "listData": [
+                "MongoDB for Storage",
+                "NodeJS for Web Server",
+                "ExpressJS for Web Programming",
+                "Meteor Framework Development",
+                "AngularJS for Frontend Development",
+                "HTML 5, Bootstrap, jQuery, Ajax Development"
+            ]
+        },
+        {
+            "title": "Python Web",
+            "subTitle": "Development",
+            "description": "When it comes to IoT, Big Data, AI/ML, we call Python",
+            "subdescription": "Being a Python development company in India and USA for 10+ years, Skywave Info Solutions has in-house and rich experience in providing Python-based development services and Python Migration Services. Hire Python developers from us to develop web applications such as Ecommerce app development, Business intelligence software applications, Online and Enterprise Web applications, Data Analytics System, SaaS Solutions, and Shell Automation. Hire expert Python development services as our certified team of Python developers are well-versed with Python tools and Python frameworks like Django, Pyramid, TurboGears, Flask, Hug, and Web2py to provide impeccable security and other features on your website. Hire Python developers to build a web app with unique client-centric front-end experiences to drive innovative business growth.",
+            "imageSrc": "/images/services/Websites/WebsitesService5.svg",
+            "listData": [
+                "Django Framework",
+                "Oscar Development",
+                "Flask Development",
+                "API Development",
+                "BI Tools Development",
+                "IoT App Backend Development",
+                "Data Mining & Data Analysis Systems"
+            ]
+        },
+        {
+            "title": "Java Web",
+            "subTitle": "Development",
+            "description": "Large scale and SaaS-based software with advanced Java",
+            "subdescription": "We are the best Java development company in India, USA, and Canada providing top full stack Java development / Migration services for more than a decade. Our team of Java developers are experts in delivering exceptional Java / J2EE programming services (Java SE, Java ME and other Java solutions) and have expertise in developing large scale, distributed, SaaS-based, and multi-tenant applications and microservices using Spring, Hibernate, and Grails. Our full stack Java developers have delivered robust Java application development projects to diverse industry verticals globally. You can outsource Java development to Skywave Info Solutions as we offer the most affordable way to get Custom Java Application Development Services of the highest quality.",
+            "imageSrc": "/images/services/Websites/WebsitesService6.svg",
+            "listData": [
+                "Umbraco Development",
+                "Sitecore Development",
+                "Java Mobile Development",
+                "Enterprise Java Development",
+                "Custom Java Development",
+                "Java Application Development",
+                "Enterprise Java Development",
+                "J2EE Application Development",
+                "Java Application Programming",
+                "Java Maintenance and Support"
+            ]
+        },
+        {
+            "title": "HTML5 Web",
+            "subTitle": "Development",
+            "description": "Get your design ready to show on browsers",
+            "subdescription": "Top HTML5 Web development company in India and USA, Skywave, is an award-winning IT outsourcing company that offers world-class JavaScript and HTML5 based multi-platform app development services, right from native apps to cross-platform app development. Hire Web and HTML5 certified developers from us who are masters in developing appealing front-end solutions by using HTML5 tools like CSS3, JavaScript, JSON, XML etc. We develop high-performing business apps that are fast, responsive, secure, beautiful, user-friendly, cost-effective, and work on popular platforms like Android, iOS, Windows, Blackberry etc. Bring us your PSD design and we will convert it to cross-browser compatible W3C approved Valid Responsive HTML5.",
+            "imageSrc": "/images/services/Websites/WebsitesService7.svg",
+            "listData": [
+                "Responsive Website Design",
+                "HTML5 Canvas Friendly Design",
+                "Touch-Friendly Website Design",
+                "Device Agnostic Html5 Designs",
+                "Accelerated Mobile Page Design",
+                "Disabled Friendly Website Design",
+                "Kiosk Friendly Html5 Website Design",
+                "Web Accessibility Friendly Website Design"
+            ]
+        },
+        {
+            "title": "Ruby on Rails",
+            "subTitle": "Web Development",
+            "description": "Develop top-notch web applications with Ruby on Rails",
+            "subdescription": "Renowned as a top-notch Ruby on Rails (RoR) development company in India, USA, and UK, Skywave possesses in-house RoR developers who are connoisseurs in full-stack ROR development services having experience in AngularJS, ReactJS, and/or BackboneJS & an advocate of Agile methodology and TDD. Hire full stack Ruby on Rails developers (RoR programmers) who are savvy with latest technologies like RoR Ajax, wEB 2.0 app, MySQL, RoR 4.2, HTML5/CSS3, XHTML, JS and multiple libraries. Our Ruby on Rails (RoR) development services provide scalable and robust web platforms and back-end systems which are viable and useful with multiple databases, OS and software libraries.",
+            "imageSrc": "/images/services/Websites/WebsitesService8.svg",
+            "listData": [
+                "RoR Portal Development",
+                "RoR Web 2.0 Development",
+                "Responsive Layout Design",
+                "Ecommerce App Development",
+                "RoR Support and Maintenance",
+                "Custom RoR Web App Development",
+                "CMS Development and RoR installation",
+                "Ruby on Rails (RoR) Application Development"
+            ]
+        },
+        {
+            "title": "Magento Web",
+            "subTitle": "Development",
+            "description": "e-Commerce development with Magento 3",
+            "subdescription": "It becomes difficult for any business to survive in competition without good online presence. That is where Skywave Info Solutions plays a role in helping you develop amazing lead-generating websites.\n\nIt doesn’t matter which platform and framework you are talking about; we are available with all expert resources to fulfill your requirements. We thrive to provide complete satisfaction from our services, making us the top website development company. Some of the web development services we offer include:",
+            "imageSrc": "/images/services/Websites/WebsitesService9.svg",
+            "listData": [
+                "Magento Consulting",
+                "Multi-vendor eCommerce",
+                "Magento Migration",
+                "Magento Extension Development",
+                "Payment, Email, Tracking Extension Integration",
+                "Template Development"
+            ]
+        }
+    ],
+    "UiUxData": [
+        {
+            "title": "UI/UX",
+            "subTitle": "Design Analysis",
+            "description": "We analyze and enhance to make it better",
+            "subdescription": "Think if your UI does not represent your real idea, or your website has no proper user experience. In the digital world, the importance of UI/UX is as equal as the product idea. Designers at Skywave Info Solutions have rich experience in amalgamating UI and UX to generate the most efficient product. No matter if it is mobile or web, we have a pool of designs and variations that can really amaze you. In the trend, where pre-built designs are getting used, we understand that no design can be synced before the content of the web or mobile application is built. Here we are to make your business a work of art that includes the below-listed services:",
+            "imageSrc": "/images/services/UXUI/UI_UX_Design1.svg",
+            "listData": [
+                "Web Design Services",
+                "PSD to HTML5 Conversion",
+                "Graphic Design",
+                "Logo Design",
+                "Mobile App Design",
+                "Wire-Frame Design"
+            ]
+        },
+        {
+            "title": "Website Design",
+            "subTitle": "Company",
+            "description": "Elevating Web Design and Custom Development Services in India and USA",
+            "subdescription": "Skywave Info Solutions is a website design company in India that has an expert design team with premier tactics in analyzing projects and creating a unique style of the user interface. Visitors do not stay on the website for a longer time if they do not get the professional feeling while they are searching for web design services. So in order to decrease the bounce rate on your website, we design PSD of websites first and then convert it to HTML. Our custom design and carving it into a dynamic framework have made us top PSD to HTML service providers in India and the USA.\n\nCustom web development services in the USA are provided by most of the companies in India, but we are quite different in taking any project and developing it to make it live on the internet. We thrive for the client’s success and help them reach their goals through a website. Whether it is an eCommerce or static company website or an enterprise web application, it has to be mobile-friendly by all means. The majority of people on the internet use their mobile devices to search for any product or services, and we are the ones who ensure that your website looks good and works in the same way on all devices.",
+            "imageSrc": "/images/services/UXUI/UI_UX_Design2.svg"
+        },
+        {
+            "title": "Web Design",
+            "subTitle": "Services",
+            "description": "Elevating User Experience with Responsive Web Design and Optimal Performance",
+            "subdescription": "Responsive web design services bring the latest HTML5 and CSS3 framework using reactive languages. Creating different layouts for different devices is the best way which we follow in our design and development cycle. Users get a dynamic experience over different devices and can interact more with the website or an application. Many visitors might leave your website just because it doesn’t load the content fast and they do not wait for a longer time. We also successfully optimize websites for mobile devices to increase the loading speed and give uninterrupted user experience.",
+            "imageSrc": "/images/services/UXUI/UI_UX_Design3.svg"
+        }
+    ],
+    "SeoData": [
+        {
+            "title": "SEO",
+            "subTitle": "Services",
+            "description": "Get your brand on top of Google",
+            "subdescription": "Search Engine Optimization helps in getting leads for business organically. We help in improving your business website ranking in Google by doing required SEO activities. We have our proven strategies that work for any business to get the best results. SEO is a slow process, but its results last long on the Internet, which keeps helping your website grow and get more leads.\n\nWe have expert SEO analysts to work on your website and make your online presence trustworthy among your customers. We have years of experience in doing SEO for websites and mobile applications. Here are the best SEO services listed below:",
+            "imageSrc": "/images/services/seo/SeoServices.svg",
+            "listData": [
+                "Keyword Analysis",
+                "Competitor Analysis",
+                "Content Submission",
+                "Technical Optimization",
+                "Mobile Optimization",
+                "Off-Page Optimization"
+            ]
+        },
+        {
+            "title": "SEO Optimization",
+            "subTitle": "Services",
+            "description": "Boost Your Online Presence with Skywaveinfos Global SEO Solutions",
+            "subdescription": "Skywaveinfo Solutions is offering package-wise SEO services in India, USA, UK, New Jersey, Canada, Australia, and many other countries around the world. With the growing traffic on the internet, it is obvious that people are finding everything they need on the internet. Thus, it has become essential for any company, business owner, eCommerce vendor, startup to get highlighted on Google or relevant search engines. Getting a space on search engines and, more importantly, getting ranked in the top 10 enables you to get organic clicks and engagement. Our SEO optimization services ensure that your website gets ranked in your local area and gets a more targeted audience to convert them into customers or regular visitors.\n\nDigital marketing analysts at Skywave create a custom SEO audit report and highlight the weak points of the website. After analyzing the report in-depth, an action plan is created on which the SEO team works to get your website ranked at the top of search engines. Creating your own brand needs a constant effort and activeness over social media. New pages and blog content need to be posted frequently to make people aware of your product and brand. Our SEO service experts take care of your online presence from bottom to top and suggest all the changes or additions needed on the website. Talk today with our SEO executive to get an estimation of your website's SEO and free audit service.",
+            "imageSrc": "/images/services/seo/SeoOptimization.svg"
+        },
+        {
+            "title": "Digital Marketing",
+            "subTitle": "Agency",
+            "description": "Empower Your Business with Our Proven SEO Expertise",
+            "subdescription": "Being a top Digital Marketing agency, we develop websites SEO-friendly, which bring targeted audiences and increased reach to people who are searching for the same product or services. We have been the most recommended SEO service providers in the USA, Australia, and Canada. Our SEO professionals have knowledge about trending tactics and also follow our own handmade book of dominance over the internet with killer SEO strategies. We follow SEO activities like Keyword research, social bookmarking, classified submission, business listing, growth hacking strategies, social media video content sharing, festive posts, targeting niche audiences, and many more secrets from years to get the true results. Even after providing such quality SEO services, our rates are very affordable, and according to the need, SEO packages are created so any business, startup, or enterprise can opt for it.",
+            "imageSrc": "/images/services/seo/DigitalMarketing.svg"
+        }
+    ],
+    "OdooData": [
+        {
+            "title": "Odoo ERP",
+            "subTitle": "Development",
+            "description": "Build highly dynamic web apps with PHP frameworks",
+            "subdescription": "Do you own more than one business? If yes, then Odoo is the best option for you. Odoo offers all businesses to lie under a single dashboard, which is the main power of Odoo ERP. Odoo is an open-source platform that can be used for any kind of purpose like CRM development, service management, marketing & sales, production units, and many more.\n\nOur primary objective is to provide outstanding Odoo services in terms of quality, affordability, and time. We have always worked to provide our clients greater agility, make profitable decisions at any place. Our Odoo services include:",
+            "imageSrc": "/images/services/Websites/WebsitesService1.svg",
+            "listData": [
+                "Odoo Web Development",
+                "Odoo Integration",
+                "Module Development",
+                "Odoo Application Development",
+                "Custom Odoo Development",
+                "Odoo Implementation & Migration",
+                "Odoo Store Development",
+                "Odoo Support & Maintenance"
+            ]
+        },
+        {
+            "title": "Odoo ERP Software",
+            "subTitle": "Development",
+            "description": "Flexible, secure and robust software development",
+            "subdescription": "Developing custom ERP with Odoo is the best choice as its varied range of powerful tools bring developers the facility to build an advanced ERP portal. Our Odoo ERP development services have helped many enterprises to run their business on automation and not intervening into micro processes of the business manually. Skywaveinfo has a dedicated team to work for your project whether you have a big or medium-size business. We have also helped small businesses with minimal ERP solutions which fastens our client’s growth.\n\nFinding a genuine Odoo app development company is hard and we are here to serve you with the best Odoo app services. We have mastered skills for Odoo ERP software development with our years of experience. Odoo has potential in building order management systems, advanced ERP solutions, billing system, customer relationship management system, custom e-commerce application development and a number of advanced features and tools which you can use in web application development.",
+            "imageSrc": "/images/services/Websites/WebsitesService2.svg"
+        },
+        {
+            "title": "Odoo Development",
+            "subTitle": "Services",
+            "description": "Used by millions of people to create websites and CMS",
+            "subdescription": "Skywaveinfo Odoo experts ensure the quality of Odoo software and leverage the efficiency of scalable and robust tools to develop advanced systems. Our Odoo development services include proper management of the application and 24/7 support for any interruptions while the application has gone live. We offer Odoo maintenance services and a dedicated team of Odoo developers for your project. Odoo being an open-source framework, it has no limit on how we can extend and develop extra features as per the need and also it has proven very cost-effective to the clients. We have completed lots of Odoo ERP projects and our clients are satisfied with the quality of our work and meeting the timeline of the project. If you have any project or requirement for your business, drop us a message, and we will help you out to take it beyond success by building a futuristic ERP.",
+            "imageSrc": "/images/services/Websites/WebsitesService3.svg"
+        }
+    ],
+    "MobileData": [
+        {
+            "title": "iOS App",
+            "subTitle": "Development",
+            "description": "Build top-notch iOS applications with an experienced team",
+            "subdescription": "Top iPhone Apps Development Company in Ahmedabad, India/USA/Canada, Skywave offers best-in-class custom iOS App Development Services around the globe using an in-house team of Apple Watch/iPad/iPhone App developers. Our master coders of iPhone app development  team walk and talk in Objective-C and Swift while being passionate  about Apple’s Cocoa and Cocoa Touch frameworks. We design, develop,  and launch iOS apps on the App Store that are compatible with the new  generation of iPhones/iPads with the latest version of iOS 16. We prefer to use the latest and the most popular IDE (Xcode) that will spice up  the UX and will fuel your iPhone and iPad apps.",
+            "imageSrc": "/images/services/Mobile/MobileService2.svg"
+        },
+        {
+            "title": "Android App",
+            "subTitle": "Development",
+            "description": "Don’t miss out on major audiences using Android devices in the World",
+            "subdescription": "Skywave Info Solutions is a leading Android App Development Company in India, USA and Canada with 10+ experience in providing custom Android App Development Services globally. Hire expert Android app developers from us who hold proficiency to create custom Android app that works on all Android devices and latest OS versions like Oreo and Android P Beta versions. Android App Developers at Skywave use their strong command over Kotlin, Java, C, C++ HTML, CSS that helps them to code top-notch hybrid Android Application Development Services and Solutions for almost all the industry categories on Google Play Store.",
+            "imageSrc": "/images/services/Mobile/MobileService1.svg"
+        },
+        {
+            "title": "React Native App",
+            "subTitle": "Development",
+            "description": "Top industries have implemented their products in React Native.",
+            "subdescription": "Our expert React Native development team delivers the best possible cross-platform application development services to deliver a product that is as close as a native Android or iOS application. React Native developers from Skywave Info Solutions are well-versed in all React Native tools like React Native Expo, VSCode, ESLint, Flow, Enzyme and Reactotron; frameworks like Snowflake, Ignite, Nativebase; and libraries such as React Navigation, MobX and Animatable. Leverage the benefits of React Native development for strategic business growth at an affordable cost.",
+            "imageSrc": "/images/services/Mobile/MobileService5.svg"
+        },
+        {
+            "title": "AR/VR App",
+            "subTitle": "Development",
+            "description": "Future is here with Augmented and Virtual reality!",
+            "subdescription": "Being a trusted Augmented Reality (AR) applications development company in India, USA and APAC region, we help businesses to give their customers a whole new world right in front of their eyes leveraging AR technology integrated with quality mobile applications. Hire our AR app developers, who are experts in AR development using location-based tracking, 3D modeling & visualization, 360-degree panoramic imaging, real-time character identification and more. We are experts in all major AR tools such as Wikitude, Vuforia, Catchoom, ViewAR and Augment.",
+            "imageSrc": "/images/services/Mobile/MobileService6.svg"
+        },
+        {
+            "title": "Cross platform/ Hybrid App",
+            "subTitle": "Development",
+            "description": "Build awesome applications within a low budget",
+            "subdescription": "Just like Android and iOS, Skywave Info Solutions is an award-winning cross-platform application development company in India and USA. We develop high-performance cross-platform mobile apps which can run flawlessly on all mobile platforms. Our cross-platform app developers are well-versed in using trending technologies and frameworks like Xamarin, React Native, Nativescript, PhoneGap/ Apache Cordova, Appcelerator’s Titanium and Xamarin. Our cross-platform app developers have proved excellence in writing compact and clean codes on web technologies (CSS3, JavaScript, HTML5, C#, etc.) and to build a required protocol stack such as RTP, HTTP, SOAP, XML, REST etc. Hire affordable cross-platform app development services for rich and intuitive cross-platform mobile apps.",
+            "imageSrc": "/images/services/Mobile/MobileService3.svg"
+        },
+        {
+            "title": "Flutter App",
+            "subTitle": "Development",
+            "description": "Get an expressive app with a revolutionary framework",
+            "subdescription": "Flutter is the most lucrative mobile app development framework. Launched by Google and now it has a very big community all around. Also, Flutter is the native language for Fuchsia OS, which enhances the power of developers and mobile apps both. It supports native development in iOS and Android both which helps this framework to get more power in the market. Skywave Info Solutions is one of the top Flutter app development companies in India. We have experienced developers working from the very start of the launching of the Flutter framework. We already have developed many applications in Flutter. Our team can help you and guide you for your dream project in Flutter and pull out the most beneficial outcomes from it. We can build apps in Flutter passionately by utilizing all its features and instances.",
+            "imageSrc": "/images/services/Mobile/MobileService4.svg"
+        }
+    ],
+    "BlockchainData": [
+        {
+            "title": "Blockchain App",
+            "subTitle": "Development",
+            "description": "Revolutionize the world with the power of Blockchain",
+            "subdescription": "The data transactions have been re-imagined after the invention of blockchain technology. We provide the best offshore blockchain development services. Our solutions for Blockchain Application Development are customized in a way that it created a unique identity for your business and give transparency.\n\nIf you have an idea for your industry and need expert Blockchain Developers, then we are the one-stop solution for your business to grow. We will guide and provide proper consultation with minimal cost that suits you in the best ways. Check below some of our Blockchain services.",
+            "imageSrc": "/images/services/Blockchain/BlockchainService1.svg",
+            "listData": [
+                "DApp Development",
+                "Smart Contract Development",
+                "POC Development",
+                "Enterprise Blockchain",
+                "Blockchain Solution Implementation",
+                "Strategic Consultation"
+            ]
+        },
+        {
+            "title": "Blockchain Application",
+            "subTitle": "Development Company",
+            "description": "Your Trusted Offshore Blockchain Development Partner for Next-Gen Solutions",
+            "subdescription": "Blockchain technology has brought dominating change over other technologies. It has pushed many industries to the next level of security. Businesses have unleashed blockchain solution implementation by hiring a blockchain application development company and building next-generation web and mobile applications. Blockchain has benefited businesses like banking, medical, AI-ML, Cryptocurrency, smart communication systems, automated audit processes, etc.\n\nSkywave Info has a team of developers and marketers who work on 360-degree solutions by providing blockchain development services, UI/UX of blockchain apps, marketing, and branding. We have been the most recommended offshore blockchain development services provider in India. We have multiple options for you to offer before you think to dive into blockchain and leverage its features like decentralization, transparent environment, block base nature, and permission-based acceptance and immutability.",
+            "imageSrc": "/images/services/Blockchain/BlockchainService2.svg"
+        },
+        {
+            "title": "Blockchain Application",
+            "subTitle": "Development",
+            "description": "Tailored Blockchain App Development Solutions by Skywave Info Solutions",
+            "subdescription": "The cost of blockchain app development varies as per the features added to it. Applications like web wallet development, Cryptocurrency exchange development, token-based system development, ICO website development, and many other advanced apps can be developed. Custom blockchain application development brings solutions to industries like real estate, education/online learning systems, healthcare improvement solutions, retailers and vendors, manufacturing, etc.\n\nWe have expert blockchain consultants in our team from whom you can get free advice about your idea. We have helped our clients in building hyperledger which has flawlessly eased up the finance and transactional processes. Our financial blockchain solution enables you to log every minute detail of transactions happening between you and your parties, which, in result, helps in hindering any disputes.",
+            "imageSrc": "/images/services/Blockchain/BlockchainService3.svg"
+        }
+    ]
+}

@@ -1,10 +1,5 @@
 import React from 'react'
-import Navbar from '@/pages/navbar'
+import SolutionPage from '@/pages/SolutionPage'
 export default function Solutions() {
-  return (
-    <>
-      <Navbar />
-      <div>Solutions</div>
-    </>
-  )
+  return <SolutionPage />
 }

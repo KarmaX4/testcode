@@ -1,0 +1,20 @@
+{
+    "services": [
+        {
+            "title": "IT Industry Insight",
+            "desc": "Our consultants possess a deep understanding of the IT sector, enabling us to offer targeted HR strategies that align with your industry's demands."
+        },
+        {
+            "title": "Tech Talent Acquisition",
+            "desc": "Finding the right tech talent is crucial. We excel in identifying and recruiting individuals with the technical prowess your IT company requires."
+        },
+        {
+            "title": "Agile HR Solutions",
+            "desc": "The IT landscape evolves rapidly. Our flexible HR approaches ensure that your company can adapt swiftly to industry changes."
+        },
+        {
+            "title": "Efficiency Enhancement",
+            "desc": "We optimize your HR operations, enhancing efficiency and allowing your company to remain competitive."
+        }
+    ]
+}

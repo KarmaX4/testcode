@@ -1,6 +1,7 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
 import Head from 'next/head';
+// import Animation from '@/Animation'
 
 
 const inter = Inter({ subsets: ['latin'] });
@@ -8,6 +9,9 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
     title: 'SKYWAVE',
     description: 'Skywave',
+    icons: {
+        icon: '/images/favicon.ico',
+      },
 };
 
 export default function RootLayout({ children }) {
@@ -15,9 +19,11 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <Head>
                 <title>{metadata.title}</title>
-                <link rel="shortcut icon" href="./favicon.ico" />                
             </Head>
-            <body className={inter.className}>{children}</body>
+            <body className={inter.className}>
+            {/* <Animation /> */}
+                {children}
+            </body>
         </html>
     );
 }
